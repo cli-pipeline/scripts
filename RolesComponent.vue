@@ -165,7 +165,7 @@
     methods: {
         selectAll(e){
         this.selected =[];
-        if(e.lenth>0){
+        if(e.length>0){
           this.selected = e.map(val => val.id)
         }        
       },
